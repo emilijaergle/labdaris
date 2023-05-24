@@ -1,0 +1,32 @@
+.menu {
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &.is-active {
+      text-decoration: underline;
+    }
+  }
+
+  // The top level menu.
+  &--top {
+    display: flex;
+    flex-wrap: wrap;
+
+    > .menu__item {
+      font-weight: bold;
+
+      &:not(:last-child) {
+        margin-right: space(2);
+      }
+    }
+  }
+}

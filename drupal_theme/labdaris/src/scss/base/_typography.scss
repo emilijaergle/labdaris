@@ -1,0 +1,92 @@
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: 400;
+  line-height: $line-height-base;
+  color: $color--text;
+}
+
+// Headers
+%h1,
+%h2,
+%h3,
+%h4,
+%h5,
+%h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: space() 0;
+  line-height: $line-height-heading;
+  font-family: $font-family-headings;
+  font-size: $font-size-base;
+  font-weight: 700;
+}
+
+// Header font sizes
+%h1,
+h1 {
+  margin: 0 0 space(1.75);
+  font-size: $font-size-h1;
+  font-weight: 300;
+}
+
+%h2,
+h2 {
+  font-size: $font-size-h2;
+}
+
+%h3,
+h3 {
+  font-size: $font-size-h3;
+}
+
+%h4,
+h4 {
+  font-size: $font-size-h4;
+}
+
+%h5,
+h5,
+%h6,
+h6 {
+  line-height: $line-height-base;
+}
+
+%h5,
+h5 {
+  margin-bottom: space(-1);
+}
+
+%h6,
+h6 {
+  font-weight: 400;
+}
+
+p {
+  margin: space() 0;
+}
+
+%blockquote,
+blockquote {
+  margin: space() 0;
+  padding: space();
+  font-size: $font-size-small-1;
+  border-left: 5px solid $color-gray-200;
+}
+
+em {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+a {
+  color: $color--action;
+}

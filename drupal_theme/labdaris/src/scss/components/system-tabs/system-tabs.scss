@@ -1,0 +1,25 @@
+.system-tabs {
+  margin: 0 0 space(0.5);
+  padding: 0;
+  list-style: none;
+
+  &__tab {
+    display: inline-block;
+    margin-right: space(0.25);
+
+    a {
+      display: block;
+      padding: space(0.25) space(0.75);
+      text-decoration: none;
+
+      &.is-active {
+        background-color: $color--background-tabs;
+      }
+
+      &:focus,
+      &:hover {
+        background-color: $color--background-tabs-active;
+      }
+    }
+  }
+}

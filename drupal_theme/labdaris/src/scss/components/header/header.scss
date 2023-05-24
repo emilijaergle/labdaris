@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: space(3);
+  padding: space() 0;
+  background: $color--background-header;
+  color: white;
+
+  a {
+    color: white;
+    text-underline-offset: 2px;
+  }
+}

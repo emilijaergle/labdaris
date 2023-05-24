@@ -1,0 +1,17 @@
+@import "colors";
+
+$color--action: $color-blue-1;
+$color--primary: $color-red-1;
+
+// Font colors.
+$color--text: $color-gray-880;
+
+// Backgrounds.
+$color--background-default: $color-gray-000;
+$color--background-header: $color-brand-green;
+$color--background-footer: $color-gray-200;
+$color--background-tabs: $color-gray-200;
+$color--background-tabs-active: $color-gray-150;
+
+// Border.
+$color--border-default: $color-gray-400;

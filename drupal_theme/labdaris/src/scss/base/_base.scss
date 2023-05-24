@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: $color--background-default;
+  min-height: 100%;
+  background-image: url('../../../background.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -300px 50%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+audio {
+  width: 100%;
+  max-width: 100%;
+}

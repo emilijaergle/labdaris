@@ -1,0 +1,11 @@
+.site-logo {
+  display: block;
+  max-width: 6rem;
+  padding: 0 space();
+
+  svg {
+    width: 50px;
+    color: white;
+    display: block;
+  }
+}

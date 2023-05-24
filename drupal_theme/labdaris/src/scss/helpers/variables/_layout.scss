@@ -1,0 +1,36 @@
+// Spacing
+$space: 1rem;
+
+// In general, SASS functions go into "../functions/" but space() is used to define layout variables.
+@function space($multiplier: 1) {
+  @return $space * $multiplier;
+}
+
+// Layout
+$dimension--xsmall: space(20); // 320
+$dimension--small: space(30); // 480
+$dimension--medium: space(45); // 720;
+$dimension--large: space(57.5); // 920;
+$dimension--xl: space(76.5); // 1224;
+$dimension--xxl: space(88); // 1408;
+
+// Sets the max-width property of the element that includes `container()`.
+$max-width--container: $dimension--xl;
+
+$grid-columns: 12;
+$grid-gutter: space(2);
+
+// This variable is a sass map that overrides Neat's default grid settings.
+// Define grid properties including gutters and total column count.
+$neat-grid: (
+  columns: $grid-columns,
+  gutter: $grid-gutter,
+);
+
+:root {
+  --padding-page: #{space(2)};
+
+  @include below($dimension--small) {
+    --padding-page: #{space(1)};
+  }
+}

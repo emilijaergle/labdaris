@@ -1,0 +1,15 @@
+.region--header {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .block--system-branding-block {
+    margin-right: space(2);
+  }
+
+  .menu-wrapper--main {
+    flex: 1;
+  }
+}

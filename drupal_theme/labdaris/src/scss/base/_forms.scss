@@ -1,0 +1,49 @@
+fieldset {
+  margin: 0 0 space(0.75);
+  padding: space(0.5);
+  border: none;
+  background: none;
+}
+
+legend {
+  margin-bottom: space(0.5);
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: space(0.5);
+}
+
+input,
+textarea,
+select {
+  display: block;
+  line-height: 1.5;
+}
+
+input,
+select,
+button {
+  height: $height-inputs;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+select {
+  max-width: 100%;
+  width: 100%;
+
+  &[multiple] {
+    height: auto;
+    min-height: $height-inputs;
+  }
+}
+
+[type="submit"],
+button {
+  @include button;
+}

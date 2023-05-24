@@ -1,0 +1,47 @@
+// Line height
+$line-height-base: 1.5;
+$line-height-heading: 1.2;
+
+$font-family-base: Roboto, roboto, Helvetica, Arial, sans-serif;
+$font-family-condensed: 'Roboto Condensed', roboto_condensed, Helvetica, Arial, sans-serif;
+$font-family-headings: $font-family-base;
+$font-family-icons: icon-font;
+
+$height-inputs: 3rem;
+
+// Font Sizes
+$font-size-large-5: 2.6rem;
+$font-size-large-4: 2.2rem;
+$font-size-large-3: 1.8rem;
+$font-size-large-2: 1.6rem;
+$font-size-large-1: 1.4rem;
+$font-size-base: 1.2rem;
+$font-size-small-1: 1.1rem;
+$font-size-small-2: 1rem;
+$font-size-small-3: 0.9rem;
+$font-size-small-4: 0.8rem;
+$font-size-small-5: 0.7rem;
+$font-size-small-6: 0.6rem;
+
+$font-size-h1: 2.8rem;
+$font-size-h2: 2.2rem;
+$font-size-h3: 1.8rem;
+$font-size-h4: 1.4rem;
+
+// Background
+$box-shadow-base: 0 0.25rem 1.5rem 0 rgba(0, 0, 0, 0.17);
+
+// Borders
+$border-radius-base: 0.125rem;
+$border-base: 0.0625 solid $color--border-default;
+
+// Animations
+$duration-base: 150ms;
+$duration-medium: 350ms;
+$timing-base: ease;
+$transition-base: $duration-base $timing-base;
+
+$letter-spacing--base: 0;
+$letter-spacing--medium: 0.05em;
+$letter-spacing--wide: 0.08em;
+

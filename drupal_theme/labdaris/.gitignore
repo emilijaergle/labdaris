@@ -1,0 +1,3 @@
+# Ignore bundled and compiled files. They should be built on deployment.
+# This should work out of the box in Silta environments.
+dist

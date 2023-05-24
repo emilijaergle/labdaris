@@ -1,0 +1,28 @@
+name: 'LABdaris theme'
+type: theme
+description: 'A simple starter theme based on Stable'
+base theme: stable9
+core: 8.x
+core_version_requirement: ^9 || ^10
+logo: logo.svg
+
+# Libraries.
+# These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig
+# whenever possible.
+libraries:
+  - labdaris/global
+
+# CKEditor stylesheet loads in wysiwyg to give content editors a better experience.
+ckeditor_stylesheets:
+  - dist/editor.css
+
+regions:
+  header: Header
+  pre_content: Pre Content
+  content: Content # the content region is required
+  post_content: Post Content
+  footer: Footer
+
+# Remove unwanted system stylesheets.
+stylesheets-remove:
+  - '@stable/css/system/components/clearfix.module.css'
